@@ -1,0 +1,499 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+/* navigation */
+.nav-link{
+    font-family: 'Katamury Pro', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 0 12px;
+    color: #3B3200;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 6px #00000032;
+    background-color: #556342;
+    padding: 10px 26px;
+}
+.button{
+    padding: 10px 20px;
+    background-color:#ffffff;
+    text-decoration: none;
+    font-family: 'Katamury Pro', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#3B3200;
+    text-decoration: none;
+    border-radius: 17px;
+    margin-right: 12px;
+}
+
+/* hero section */
+.hero-image {
+    background-image: url('../images/mountain\ image.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 32px 76px;
+}
+.title{
+    margin-top: 0;
+    margin-bottom: 16px;
+    color: #3B3200;
+}
+.description{
+    color: #3B3200;
+}
+.btn {
+    padding: 10px 10px;
+    background-color:#BDDB8F;
+    text-decoration: none;
+    font-family: 'Katamury Pro', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color:#3B3200;
+    text-decoration: none;
+    border-radius: none;
+    display: inline-block;
+}
+.hero-text {
+    max-width: 1130px;
+    margin: 0 auto;
+}
+.box {
+    background-color: #ffffff40;
+    width: 316px;
+    padding: 43px 50px;
+}
+
+/* sections */
+.round-img {
+    background-color: #BDDB8F;
+    border-radius: 10%;
+}
+.bg-blue {
+    background-color: #A0B7C3;
+    padding-bottom: 48px;
+}
+.bg-green {
+    background-color: #556342;
+}
+.bg-lgreen {
+    background-color: #BDDB8F;
+    padding-top: 8px;
+    padding-bottom: 7px;
+}
+.sign-box {
+    border: 3px solid #3B3200;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+.text-white {
+    color: #ffffff;
+}
+.pr {
+    position: relative;
+}
+.pa {
+    position: absolute;
+    top: 11px;
+    left: 23px;
+
+}
+.pa-2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.about-btn {
+    overflow: hidden;
+    border-radius: 25px;
+    
+}
+
+/*layout*/
+.col-lg-3 {
+    flex-basis: 25%;
+    padding: 0 3px;
+}
+.col-lg-4 {
+    flex-basis: 33.33%;
+    padding: 0 29px;
+}
+
+.col-lg-6 {
+    flex-basis: 50%;
+    padding: 0 8px;
+}
+ .col-lg-10 {
+    flex-basis: 83.334%;
+    padding: 0 8px;
+}
+.justify-center {
+    justify-content: center;
+}
+.container {
+    max-width: 1112px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row {
+    display: flex;
+    flex: 0 auto;
+    max-width: 1112px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.margin-bottom-lg {
+    margin-bottom: 48px;
+}
+.margin-bottom-md {
+    margin-bottom: 18px;
+}
+.margin-bottom-sm {
+    margin-bottom: 5px;
+}
+.margin-lg {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+.px-3 {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.py-3 {
+padding-bottom: 48px;
+}
+.space-between {
+    justify-content: space-between;
+}
+.full-height {
+    height: 100%;
+}
+
+/* Alignment */
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.align-center {
+    align-items: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-center {
+    justify-content: center;
+}
+.padding-left {
+    padding-left: 70px;
+}
+/* Global Styles */
+h1 {
+    font-family: 'Katamury Pro', sans-serif;
+    font-weight: 700;
+    font-size: 32pt;
+    color:#3B3200;
+}
+h2 {
+    font-family: 'Katamury Pro', sans-serif;
+    font-weight: 700;
+    font-size: 31pt;
+    color:#3B3200;
+}
+h3 {
+    font-family: 'Katamury Pro', sans-serif;
+    font-weight: 700;
+    font-size: 24pt;
+    color:#3B3200;
+}
+h4 {
+    font-family: 'Katamury Pro', sans-serif;
+    font-weight: 700;
+    font-size: 20pt;
+    color:#3B3200;
+}
+.no-marg{
+    margin: 0;
+}
+p {
+    font-family: 'Katamury Pro', sans-serif;
+    font-weight: 400;
+    font-size: 18pt;
+    color:#3B3200;
+}
+.p2 {
+    font-size: 14pt;
+    font-weight: 400;
+}
+/* icons */
+.material-symbols-outlined {
+  background-color:#556342;
+  border-style: none;
+  color:#ffffff;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24,;
+
+}
+@media(max-width: 400px) {
+    .flex-wrap {
+        flex-wrap:wrap;
+    }
+    .col-md-12 {
+        flex-basis: 100%;
+        margin-bottom: 10px;
+    }
+    .padding-left {
+        padding-left: 0;
+    }
+    .justify-center {
+        justify-content: left;
+    }
+    .nav-link {
+        display: none;
+    }
+    .box {
+        width: 100%;
+    }
+    .hero-image {
+        padding: 16px 16px;
+    }
+    .pa {
+        position: absolute;
+        top: 11px;
+        left: 75px;
+    }
+    .margin-bottom-md {
+        margin-bottom: 0;
+    }
+    .open-menu {
+        top: 35px;
+        right: 25px;
+        overflow: hidden;
+        transition: .5s;
+        display:inherit!important;
+    }
+    /*slide show*/ 
+    .prev, .next, .text {
+        font-size: 11px
+    }
+    .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+      }
+      
+      /* Hide the images by default */
+      .mySlides {
+        display: none;
+      }
+      
+      /* Next & previous buttons */
+      .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 5px;
+        color: #3B3200;
+        font-weight: bold;
+        font-size: 25px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover, .next:hover {
+        background-color: #55634201;
+
+      }
+      
+      
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #55634201;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+      
+      /* The dots/bullets/indicators */
+      .dot {
+        cursor: pointer;
+        height: 12px;
+        width: 12px;
+        margin: 0 2px;
+        background-color: #BDDB8F75;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      
+      .active, .dot:hover {
+        background-color: #55634275;
+      }
+      
+      /* Fading animation */
+      .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      
+      @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+      }
+    }
+    @media (min-width: 700px) {
+        .mySlides {
+            display:block !important;
+        }
+        .dot, .next, .prev {
+            display: none;
+        }
+        .active, .dot:hover {
+            display: none;
+        }
+    }
+
+/* side navigation styles */
+.close-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #55634201;
+    border-style: none;
+    color:#ffffff;
+}
+.open-menu {
+    top: 35px;
+    right: 25px;
+    overflow: hidden;
+    transition: .5s;
+    display: none;
+}
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0px;
+    height: 100vh;
+    background-color: #556342;
+    overflow: hidden;
+    transition: .5s;
+}
+.side-menu a {
+    padding: 16px 16px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .5s;
+}
+.side-menu a:hover {
+    background-color: #BDDB8F;
+}
+.menu-links {
+    transition: 10s;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+ /*slide show*/ 
+ .prev, .next, .text {
+    font-size: 11px
+}
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 5px;
+    color: #3B3200;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: #55634201;
+
+  }
+  
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #55634201;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+
+  
+ 
+  
+
+  
+
+
+
+  
+  
