@@ -41,7 +41,7 @@ body {
 
 /* hero section */
 .hero-image {
-    background-image: url('../images/mountain\ image.png');
+    background-image: url('../images/mountain-image.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
